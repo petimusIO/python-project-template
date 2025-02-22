@@ -20,6 +20,7 @@ See also
   On the new repository `settings->secrets` add your `PYPI_API_TOKEN` and `CODECOV_TOKEN` (get the tokens on respective websites)
 4. Read the file [CONTRIBUTING.md](CONTRIBUTING.md)
 5. Then clone your new project and happy coding!
+6. **NOTE**: Use `git clone --recurse-submodules <repository_url>` when cloning repo
 
 > **NOTE**: **WAIT** until first CI run on github actions before cloning your new project.
 
