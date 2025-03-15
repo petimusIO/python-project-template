@@ -63,8 +63,8 @@ clean:            ## Clean unused files.
 	@rm -rf .tox/
 	@rm -rf docs/_build
 
-.PHONY: virtualenv
-virtualenv:       ## Create a virtual environment.
+.PHONY: venv
+venv:       ## Create a virtual environment.
 	@if [ "$(USING_POETRY)" ]; then poetry install && exit; fi
 	@echo "creating virtualenv ..."
 	@rm -rf .venv
