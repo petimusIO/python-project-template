@@ -22,7 +22,7 @@ See also
 ```bash
 git clone --recurse-submodules <repository_url>
 cd <repository_name>
-make virtualenv
+make venv
 source .venv/bin/activate
 make install
 
